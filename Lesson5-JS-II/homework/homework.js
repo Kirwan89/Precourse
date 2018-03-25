@@ -3,13 +3,11 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
-  if (x > y){
+  if (x >= y){
     return x;
-  } else if (y > x){
-    return y;
   } else {
-    return x;
-  }
+    return y;
+  } 
 }
 
 function greeting(language) {
@@ -18,14 +16,14 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-  if (language === undefined) {
-    return "Hello!";
-  } else if (language === "German") {
-    return "Guten Tag!";
-  } else if (language === "Mandarin") {
-    return "Ni Hao!";
-  } else if (language === "Spanish") {
-    return "Hola!";
+  if (language === 'German') {
+    return 'Guten Tag!';
+  } else if (language === 'Mandarin') {
+    return 'Ni Hao!';
+  } else if (language === 'Spanish') {
+    return 'Hola!';
+  } else {
+    return 'Hello!';
   }
 
 function isTenOrFive(num) {
@@ -68,11 +66,11 @@ function fizzBuzz(num) {
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
   if (num % 3 == 0 && num % 5 === 0) {
-    return "fizzbuzz";
+    return 'fizzbuzz';
   } else if (num % 5 === 0){
-    return "buzz";
+    return 'buzz';
   } else if (num % 3 === 0){
-    return "fizz";
+    return 'fizz';
   } else {
     return num;
   }
@@ -87,7 +85,7 @@ function isPrime(num) {
   for (let i = 2; i < num; i++){
     if (num % i === 0 && i !== num){
       return false;
-    } else if (math.isPrime(num)) {
+    } else if (Math.isPrime(num)) {
       return true;
     }
   }
