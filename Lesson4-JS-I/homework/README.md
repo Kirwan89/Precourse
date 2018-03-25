@@ -5,10 +5,21 @@
 1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Variables
+	Allow for the input and manipulation of data in functions
+
 	* Strings
+	An array of letters or digits 
+
 	* Functions (arguments, `return`)
+	Operate logic on variables
+
+
 	* `if` statements
+	Conditional method of spliting a function process and channeling desired outcome.
+
+
 	* Boolean values (`true`, `false`)
+	The simplest statement possible, something is either true or it's false.
 
 
 2. Install Node and NPM.  NPM comes packaged with Node. https://nodejs.org/en/download/
