@@ -93,14 +93,21 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if (num %2 === 0, true, false)
+  if (num %2 === 0){
+    true
+  } else {
+    false
+  }
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (num % 2 === 1, true, false);
+  if (num % 2 === 1) {
+    true 
+  } else {
+    false
 }
 
 function square(num) {
