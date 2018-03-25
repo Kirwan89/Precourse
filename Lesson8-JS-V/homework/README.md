@@ -5,7 +5,10 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* `prototype`
+	Prototypes are a property of classes which allows a set of methods to be applied across multiple objects in a formulaic way. 
+
 	* Constructors
+	A kind of function which sets variables using "this" so as to be replicated for as many new objects.
 
 2. From the top level of your `Precourse` folder, run `npm test JSV.test.js` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
 
