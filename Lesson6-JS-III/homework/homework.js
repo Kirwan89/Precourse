@@ -7,7 +7,8 @@ function returnFirst(arr) {
 
 function returnLast(arr) {
   // return the last item of the array
-  return arr[arr.length-1];
+  let lastIndex = arr[arr.length-1];
+  return lastIndex;
 }
 
 function getArrayLength(arr) {
@@ -19,11 +20,12 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  for (let i=0,i < arr.length -1,i++){
-    arr[i] = arr[i]+1;
+  for (let i = 0, i < arr.length - 1, i++) {
+    arr[i] = arr[i] + 1;
+   }
+   return arr[];
   }
- return arr[];
-}
+
 
 function addItemToArray(arr, item) {
   // add the item to the end of the array
@@ -43,10 +45,11 @@ function addItemToFront(arr, item) {
 function wordsToSentence(words) {
   // words is an array of strings
   // return a string that is all of the words concatenated together
-  const newString = ""; 
-  for (let i=0, i < words.length -1, i++) {
-
+  let newString = ''; 
+  for (let = 0, i < words.length -1, i++) {
+    newString = newString + ' ' + words[i]
   } 
+  return newString;
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
 }
@@ -54,9 +57,11 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  let check = false;
-  for (let i=0, i < arr.length -1, i++) {
-    if(arr[i] === item, check = true, false);
+  for (let i=0, i < arr.length, i++) {
+    if (arr[i] === item) {
+      return true;
+    } else {
+      return false;
   } 
 }
 
