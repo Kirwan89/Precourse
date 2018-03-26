@@ -98,7 +98,7 @@ In objects, values can be set to functions. Functions saved on an object are cal
 
 ## for...in Loops
 
-Sometimes we want to iterate over each key:value pair in our object. With arrays we used a standard for loop and an index number variable. Objects do not contain numerical indexes so the standard loop will not work for objects. Javascript has a second type of for loop built in called the "for...in" loop. It is slightly different syntax, it starts the same but in the parentheses we will declare a variable, the keyword `in`, and the name of the object. This will loop over each key in the object and finish when all of the keys have been iterated over. We can use this key, and bracket notation, in our for loop to access the value associated with that key.
+Sometimes we want to iterate over each key:value pair in our object. With arrays we used a standard for loop and an index number variable. Objects do not contain numerical indexes so the standard loop will not work for objects. Javascript has a second type of for loop built in called the "for...in" loop. It is slightly different syntax, it starts the same but in the parentheses we will declare a variable,  the keyword `in`, and the name of the object. This will loop over each key in the object and finish when all of the keys have been iterated over. We can use this key, and bracket notation, in our for loop to access the value associated with that key.
 
 ```javascript
     const user = {
