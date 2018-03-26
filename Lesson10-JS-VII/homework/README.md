@@ -5,6 +5,7 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Closure
+	Relates functions to their context, applying operations first locally and globally if need be.
 
 2. From the top level of your `Precourse` folder, run `npm test JSVII.test.js` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
 
