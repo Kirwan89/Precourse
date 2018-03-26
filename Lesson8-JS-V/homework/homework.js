@@ -2,13 +2,13 @@
 
 function createUserClass() {
   // create an ES6 class or a constructor function called User
-  function User(username, name, email,password) {
+  const User= function({username, name, email,password}) {
     this.uN = username;
     this.name = name;
     this.email = email;
     this.pW = password;
   }
-  User.prototype.introduction = function(){
+  User.prototype.sayHi = function(){
     return 'Hello, my name is ' + this.name;
   }
 }
@@ -17,11 +17,12 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the class
+  return User
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
-  addPrototypeMethod.sayHi = function() {
+  Constructor.prototype.sayHi = function() {
     return 'Hello World!'
   }
   // the method should be called 'sayHi' and should return the string 'Hello World!'
